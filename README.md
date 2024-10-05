@@ -28,11 +28,16 @@ Thanks for stopping by! I am so glad you're here. Whether you're a seasoned deve
 ## 📢Contributors📢<br>
 
 <a href="https://github.com/sudo-parnab/Its-webtober/graphs/contributors"> 
-<img src="https://contrib.rocks/image?repo=sudo-parnab/Its-webtober" /> </a>
+<img src="https://contrib.rocks/image?repo=sudo-parnab/Its-webtober" /> </a><br>
 
   * **Front-end development:** Create visually appealing and user-friendly interfaces using HTML, CSS, and JavaScript. Explore popular frameworks like React, Angular, or Vue to streamline development and build complex applications.
   * **Back-end development:** Develop the server-side logic and functionality of web applications using languages and frameworks like Node.js, Python (Django, Flask), or Ruby on Rails. Handle data storage, processing, and API interactions.
-  * **Full-stack development:** Demonstrate your expertise in both front-end and back-end development by building complete web applications from start to finish. Combine your skills to create seamless user experiences and efficient server-side operations.
+  * **Full-stack development:** Demonstrate your expertise in both front-end and back-end development by building complete web applications from start to finish. Combine your skills to create seamless user experiences and efficient server-side operations.<br>
+
+  ## 📢Contributors📢<br>
+
+<a href="https://github.com/sudo-parnab/Its-webtober/graphs/contributors"> 
+<img src="https://contrib.rocks/image?repo=sudo-parnab/Its-webtober" /> </a><br>
 
 ### **Encountering Issues?**
 
