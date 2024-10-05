@@ -25,7 +25,7 @@ Before you start, please familiarize yourself with our [Code of Conduct](CODE_OF
           ```
         * **Develop your project:** Create a new folder with your project name and add all of your project files and folders inside it, ensuring you include a `README.md` file explaining your project's purpose and functionality.
         * **README.md content:**  
-            * Briefly describe your project. 
+            * Briefly describe your project and tech stack. 
             * Include installation and usage instructions.
             * Consider adding screenshots or examples.
             * Provide a link to your GitHub account (optional). 
