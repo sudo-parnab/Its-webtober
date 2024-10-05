@@ -50,7 +50,7 @@ Before you start, please familiarize yourself with our [Code of Conduct](CODE_OF
       * **Open a pull request:** Navigate to your forked repository on GitHub and click the "Pull Request" button.
       * **Provide a clear description:** Explain the changes you've made and why they're beneficial.
       * **Reference related issues or discussions:** If applicable, link to any relevant issues or discussions.
-      * **Follow the template:** If the project has a pull request template, be sure to follow its guidelines.
+      * **Follow the template:** Follow the project [Pull Request Template](PULL_REQUEST_TEMPLATE.md)
 
 
 7. **Review**: Be prepared to participate in code reviews. If maintainer provide feedback or suggestions, be open to making necessary changes to your pull request.
