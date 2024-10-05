@@ -23,7 +23,7 @@ Before you start, please familiarize yourself with our [Code of Conduct](CODE_OF
           ```
           git checkout -b <your-project-name>
           ```
-        * **Develop your project:** Add your project files and folders, ensuring you include a `README.md` file explaining your project's purpose and functionality.
+        * **Develop your project:** Create a new folder with your project name and add all of your project files and folders inside it, ensuring you include a `README.md` file explaining your project's purpose and functionality.
         * **README.md content:**  
             * Briefly describe your project. 
             * Include installation and usage instructions.
