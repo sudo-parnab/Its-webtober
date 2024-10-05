@@ -27,7 +27,7 @@ Thanks for stopping by! I am so glad you're here. Whether you're a seasoned deve
 
 **Contributors**
 <a href="https://github.com/sudo-parnab/Its-webtober/graphs/contributors"> 
-<img src="https://contrib.rocks/image?repo=aditya-bhaumik/Pathsphere" /> </a>
+<img src="https://contrib.rocks/image?repo=sudo-parnab/Its-webtober" /> </a>
 
   * **Front-end development:** Create visually appealing and user-friendly interfaces using HTML, CSS, and JavaScript. Explore popular frameworks like React, Angular, or Vue to streamline development and build complex applications.
   * **Back-end development:** Develop the server-side logic and functionality of web applications using languages and frameworks like Node.js, Python (Django, Flask), or Ruby on Rails. Handle data storage, processing, and API interactions.
