@@ -14,4 +14,4 @@
 - [ ] My code adheres to the style guidelines outlined by this project.
 - [ ] I have thoroughly reviewed my code to identify and address any potential errors or inconsistencies.
 - [ ] I have added clear and concise comments to my code, especially in sections that might be challenging to understand at first glance.
-- [ ] I have reviewed and followed the project's [Contributing Guidelines](CODE_OF_CONDUCT.md) to ensure my contribution aligns with the project's requirements.
+- [ ] I have reviewed and followed the project's [Contributing Guidelines](CONTRIBUTING.md) to ensure my contribution aligns with the project's requirements.
