@@ -25,7 +25,8 @@ Thanks for stopping by! I am so glad you're here. Whether you're a seasoned deve
 
 ### **Contributions are welcome in all areas of web development, including:**
 
-**Contributors**
+## 📢Contributors📢<br>
+
 <a href="https://github.com/sudo-parnab/Its-webtober/graphs/contributors"> 
 <img src="https://contrib.rocks/image?repo=sudo-parnab/Its-webtober" /> </a>
 
