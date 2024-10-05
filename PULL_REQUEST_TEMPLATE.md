@@ -8,6 +8,8 @@
 - [ ] New Project
 - [ ] Issue fix
 
+<!-- Put X in the correct [ ] box -->
+
 # Checklist:
 
 - [ ] I have included a README.md file for my project clearly explaining its purpose, functionality, and usage instructions (applicable for new projects, not bug fixes).
@@ -15,3 +17,4 @@
 - [ ] I have thoroughly reviewed my code to identify and address any potential errors or inconsistencies.
 - [ ] I have added clear and concise comments to my code, especially in sections that might be challenging to understand at first glance.
 - [ ] I have reviewed and followed the project's [Contributing Guidelines](CONTRIBUTING.md) to ensure my contribution aligns with the project's requirements.
+
