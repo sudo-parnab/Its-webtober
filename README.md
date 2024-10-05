@@ -1,6 +1,6 @@
 ## **It's Webtober: Your Hacktoberfest Starter Pack**
 
-<img src="https://logicmojo.com/assets/dist/new_pages/images/js-gif.gif" >
+<img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest-11--footer.cc639da3.svg" >
 
 ### Hey there, future web wizard! 🧙‍♂️
 
