@@ -9,7 +9,9 @@
 
 Thanks for stopping by! I am so glad you're here. Whether you're a seasoned developer or just starting out, there's a place for you in our community.
 
-**Don't worry if you're new to open source.** Everyone starts somewhere! We're here to support and guide you every step of the way.
+**Don't worry if you're new to open source.** Everyone starts somewhere! We're here to support and guide you every step of the way. 
+
+Join our [Its Webtober WhatsApp Group](https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU) for more updates.
 
 ### **How to Get Started:**
 
@@ -29,7 +31,7 @@ Thanks for stopping by! I am so glad you're here. Whether you're a seasoned deve
 
 ### **Encountering Issues?**
 
-If you're facing any problems, join the [Its Webtober WhatsApp Group](https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU)
+If you're facing any problems, ask on [Its Webtober WhatsApp Group](https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU)
 
 Our community is here to help! Feel free to ask questions, seek advice, or collaborate on solutions.
 
