@@ -4,7 +4,7 @@ I am thrilled to have you join our open-source community. By contributing, you'l
 
 ## Code of Conduct
 
-Before you start, please familiarize yourself with our Code of Conduct. We expect all contributors to adhere to these guidelines to foster a positive and inclusive environment.
+Before you start, please familiarize yourself with our [Code of Conduct](CODE_OF_CONDUCT.md). We expect all contributors to adhere to these guidelines to foster a positive and inclusive environment.
 
 ## How to Contribute
 
