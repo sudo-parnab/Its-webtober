@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temperature converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="ball-1 ball"></div>
+    <div class="ball-2 ball"></div>
+    <div class="ball-3 ball"></div>
+    <div class="ball-4 ball"></div>
+    <div class="outer-container">
+<div class="inner-container">
+    <h3 class="name">Temperature Converter</h3>
+    <hr class="hrline">
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+    <div class="all-inp-btn">
+       <div class="inputs cel-inputs">
+    <label for="" class="cel">Celsius</label>
+    <input type="number" class="cel-input" id="cel-temp">
+       </div>
+       <div class="inputs temp-opt">
+        <select name="temp_diff" class="temp_diff" id="temp_diff">
+            <option value="cel">Select Temperature</option>
+            <option value="fah">℉ahrenheit</option>
+            <option value="kel">Kelvin</option>
+        </select>
+       </div>
+       <div class="inputs result-container">
+        <label for="">Ans</label>
+        <span id="result"></span>
+       </div>
+       <div class="inputs Ans">
+        <input type="submit" name="sub-btn" id="" value="Convert">
+       </div> 
+    </div>
+</form>
+    </div>
+</div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
