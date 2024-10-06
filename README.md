@@ -30,6 +30,8 @@ Thanks for stopping by! I am so glad you're here. Whether you're a seasoned deve
   * **Full-stack development:** Demonstrate your expertise in both front-end and back-end development by building complete web applications from start to finish. Combine your skills to create seamless user experiences and efficient server-side operations.<br>
 
   ## 📢Contributors📢<br>
+  npx all-contributors-cli init
+
 
 <a href="https://github.com/sudo-parnab/Its-webtober/graphs/contributors"> 
 <img src="https://contrib.rocks/image?repo=sudo-parnab/Its-webtober" /> </a><br>
