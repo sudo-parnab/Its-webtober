@@ -23,11 +23,17 @@ Thanks for stopping by! I am so glad you're here. Whether you're a seasoned deve
 
 4. **Once you've made your changes, submit a pull request and let us review your work.**
 
-### **Contributions are welcome in all areas of web development, including:**<br>
+## **Contributions are welcome in all areas of web development, including:**
 
-  * **Front-end development:** Create visually appealing and user-friendly interfaces using HTML, CSS, and JavaScript. Explore popular frameworks like React, Angular, or Vue to streamline development and build complex applications.
-  * **Back-end development:** Develop the server-side logic and functionality of web applications using languages and frameworks like Node.js, Python (Django, Flask), or Ruby on Rails. Handle data storage, processing, and API interactions.
-  * **Full-stack development:** Demonstrate your expertise in both front-end and back-end development by building complete web applications from start to finish. Combine your skills to create seamless user experiences and efficient server-side operations.<br>
+* **Front-end development:** Create visually appealing and user-friendly interfaces using HTML, CSS, and JavaScript. Explore popular frameworks like React, Angular, or Vue to streamline development and build complex applications.
+* **Back-end development:** Develop the server-side logic and functionality of web applications using languages and frameworks like Node.js, Python (Django, Flask), or Ruby on Rails. Handle data storage, processing, and API interactions.
+* **Full-stack development:** Demonstrate your expertise in both front-end and back-end development by building complete web applications from start to finish. Combine your skills to create seamless user experiences and efficient server-side operations.
+* **Mobile web development:** Create responsive websites that are optimized for mobile devices and provide a great user experience on smaller screens.
+* **Accessibility development:** Ensure your websites are accessible to users with disabilities by following accessibility guidelines like WCAG.
+* **Performance optimization:** Improve website load times and performance using techniques like code minification, image optimization, and caching.
+* **Security development:** Protect your websites from vulnerabilities and attacks by implementing security best practices and using security tools.
+
+**We encourage contributions from developers at all levels of experience, regardless of background or skillset.** Your unique perspective and contributions can make a valuable impact on our projects.
 
 ### **Encountering Issues?**
 
