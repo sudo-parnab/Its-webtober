@@ -29,11 +29,6 @@ Thanks for stopping by! I am so glad you're here. Whether you're a seasoned deve
   * **Back-end development:** Develop the server-side logic and functionality of web applications using languages and frameworks like Node.js, Python (Django, Flask), or Ruby on Rails. Handle data storage, processing, and API interactions.
   * **Full-stack development:** Demonstrate your expertise in both front-end and back-end development by building complete web applications from start to finish. Combine your skills to create seamless user experiences and efficient server-side operations.<br>
 
-  ## 📢Contributors📢<br>
-
-<a href="https://github.com/sudo-parnab/Its-webtober/graphs/contributors"> 
-<img src="https://contrib.rocks/image?repo=sudo-parnab/Its-webtober" /> </a><br>
-
 ### **Encountering Issues?**
 
 If you're facing any problems, ask on [Its Webtober WhatsApp Group](https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU)
