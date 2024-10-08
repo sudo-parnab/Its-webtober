@@ -1,0 +1,44 @@
+{
+  "name": "olx",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "firebase": "^10.5.0",
+    "google-translate-api": "^2.3.0",
+    "i18next": "^23.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-translate": "^1.0.12",
+    "react-i18next": "^13.2.2",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

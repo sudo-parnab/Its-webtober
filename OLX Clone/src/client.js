@@ -1,0 +1,2 @@
+
+const socket = new WebSocket('wss://your-websocket-server'); function sendMessage() { const messageInput = document.getElementById('messageInput'); const message = messageInput.value.trim(); if (message !== '') { socket.send(message); messageInput.value = ''; } } socket.onmessage = (event) => { const chatMessages = document.getElementById('chatMessages'); const messageElement = document.createElement('li'); messageElement.textContent = event.data; chatMessages.appendChild(messageElement); };

@@ -1,0 +1,62 @@
+/* Improved CSS Styles */
+/* Base Styles */
+.bannerParentDiv {
+  padding-top: 4em;
+  background-color: #f5f5f5; /* Add a background color */
+}
+
+.bannerChildDiv .menuBar {
+  display: flex;
+  justify-content: space-between; /* Center-align menu items */
+  align-items: center; /* Vertically center-align menu items */
+  background-color: #ffffff; /* Add a background color */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  padding: 1em 2em; /* Increase padding for spacing */
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.menuBar .categoryMenu span {
+  margin-right: 16px;
+  font-weight: bold;
+  color: #333; /* Change text color */
+  text-transform: uppercase; /* Uppercase text */
+  transition: color 0.3s ease; /* Add a smooth color transition */
+}
+
+.menuBar .categoryMenu span:hover {
+  color: #007bff; /* Change text color on hover */
+}
+
+.menuBar .otherQuickOptions span {
+  padding: 10px;
+  color: #007bff; /* Change text color */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Add a smooth color transition */
+}
+
+.menuBar .otherQuickOptions span:hover {
+  color: #0056b3; /* Change text color on hover */
+}
+
+.bannerChildDiv .banner {
+  position: relative;
+  width: 100%;
+  max-height: 400px; /* Limit banner height */
+  overflow: hidden; /* Hide overflowing content */
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.bannerChildDiv .banner img {
+  width: 100%;
+  height: auto; /* Maintain image aspect ratio */
+}
+
+/* Media Query for screens with a max-width of 700px */
+@media only screen and (max-width: 700px) {
+  .menuBar {
+    padding: 1em; /* Reduce menu padding on small screens */
+  }
+  .otherQuickOptions {
+    display: none;
+  }
+}
