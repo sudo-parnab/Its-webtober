@@ -1,6 +1,6 @@
 # **It's Webtober: Your Hacktoberfest Starter Pack**
 
-<a href="https://hacktoberfest.com/" ><img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest-11--footer.cc639da3.svg" ></a>
+<a href="https://hacktoberfest.com/" ><img src="Its-hacktober Banner.png" ></a>
 
 > Tap the banner to know more about Hacktoberfest 2024.
 
