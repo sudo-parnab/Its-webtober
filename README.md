@@ -4,6 +4,17 @@
 
 > Tap the banner to know more about Hacktoberfest 2024.
 
+<div align="center">
+  <a href="https://github.com/sudo-parnab/Its-apptober" style="text-decoration: none; margin-right: 20px;">
+    <img src="https://img.shields.io/badge/App%20Development-%2350D94C?style=for-the-badge&logo=app&logoColor=white" alt="App Development" style="border-radius: 7px;">
+  </a>
+   <a href="https://github.com/sudo-parnab/Its-webtober" style="text-decoration: none; margin-right: 20px;">
+    <img src="https://img.shields.io/badge/Web%20Development-%2350D94C?style=for-the-badge&logo=web&logoColor=white" alt="Web Development" style="border-radius: 7px;">
+  </a>
+  <a href="https://github.com/sudo-parnab/Its-algober" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/DSA%20and%20Coding-%2350D94C?style=for-the-badge&logo=code&logoColor=white" alt="DSA and Coding" style="border-radius: 7px;">
+  </a>
+</div>
 
 ### Hey there, future web wizard! 🧙‍♂️
 
