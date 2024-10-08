@@ -65,6 +65,6 @@ If you encounter a bug, have a suggestion, or want to discuss something related 
 
 Thank you for contributing to Its-webtober! Your efforts are invaluable. Your contributions help improve our projects and strengthen our community.
 
-If you have any questions or need further assistance, please don't hesitate to reach out to us at  [Its Webtober WhatsApp Group](https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU)
+If you have any questions or need further assistance, please don't hesitate to reach out to us at  [Its Hacktober WhatsApp Group](https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU)
 
 > "Coding is not about getting to the finish line; it's about enjoying the journey." - Unknown Coder
