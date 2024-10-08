@@ -1,0 +1,84 @@
+.viewParentDiv {
+  padding-top: 4em;
+  display: flex;
+  background-color: rgb(202, 194, 245); /* Light purple background color */
+}
+
+/* The rest of your CSS remains unchanged */
+.viewParentDiv .imageShowDiv {
+  padding: 16px;
+  width: 70vw;
+}
+
+.viewParentDiv .imageShowDiv img {
+  width: 65vw;
+  height: 100%;
+  object-fit: cover;
+  border: solid black 3px;
+}
+
+.viewParentDiv .rightSection {
+  padding: 16px;
+  margin-top: 3em;
+  width: 30vw;
+}
+
+.viewParentDiv .rightSection .productDetails :first-child {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #5433cc;
+  font-size: 34px;
+  line-height: 32px;
+}
+
+.viewParentDiv .rightSection .productDetails {
+  border: 1px solid #3366cc;
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.viewParentDiv .rightSection .contactDetails {
+  border: 1px solid #3366cc;
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 2em;
+}
+
+.viewParentDiv .rightSection .productDescription {
+  border: 1px solid #3366cc;
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 2em;
+}
+
+.viewParentDiv .rightSection .contactDetails .productDescription :first-child {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #3366cc;
+  font-weight: 400;
+  padding: 0;
+}
+
+.p-bold {
+  font-weight: bolder;
+}
+
+.buyerButton {
+  background-color: #ff6600; /* Orange background color */
+  color: #ffffff; /* White text color */
+  padding: 10px 20px;
+  border: solid blue 2px; /* Adjust the border */
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block; /* Make the button a block-level element */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center text horizontally */
+}
+
+.buyerButton:hover {
+  background-color: #ff5500; /* Darker orange on hover */
+}

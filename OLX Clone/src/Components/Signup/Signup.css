@@ -1,0 +1,59 @@
+/* Styles for the signup container */
+.signupParentDiv {
+  width: 100%; /* Set width to 100% */
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #FFD700, #87CEEB); /* Yellow to Light Blue Inclined Gradient */
+  border: 2px solid #000000; /* Black Border */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #000000; /* Text color */
+}
+
+/* Styles for input fields in the signup form */
+.signupParentDiv .input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.signupParentDiv .input:focus {
+  border-color: #002f34; /* Highlight input on focus */
+}
+
+/* Styles for the signup button */
+.signupParentDiv button {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  background: none; /* Remove background color */
+  color: #000000;
+  font-weight: bold;
+  border: 2px solid #000000; /* White Border */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.signupParentDiv button:hover {
+  background: linear-gradient(135deg, #FFD700, #87CEEB); /* Yellow to Light Blue Inclined Gradient on Hover */
+  color: #000000;
+}
+
+/* Styles for the "Forgot Password?" link (similar to login link) */
+.signupParentDiv a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease-in-out;
+}
+
+.signupParentDiv a:hover {
+  color: #ff6347; /* Change link color on hover */
+}
