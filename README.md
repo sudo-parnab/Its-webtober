@@ -11,7 +11,7 @@ Thanks for stopping by! I am so glad you're here. Whether you're a seasoned deve
 
 **Don't worry if you're new to open source.** Everyone starts somewhere! We're here to support and guide you every step of the way. 
 
->  <a href="https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU" ></a><img src="https://logos-world.net/wp-content/uploads/2020/05/Logo-WhatsApp.png" width="22px" >**Join our [Its Webtober WhatsApp Group](https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU) for more updates.**</a>
+>  <a href="https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU" ></a><img src="https://logos-world.net/wp-content/uploads/2020/05/Logo-WhatsApp.png" width="22px" >**Join our [Its Hacktober WhatsApp Group](https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU) for more updates.**</a>
 
 ### **How to Get Started:**
 
@@ -37,7 +37,7 @@ Thanks for stopping by! I am so glad you're here. Whether you're a seasoned deve
 
 ### **Encountering Issues?**
 
-If you're facing any problems, ask on [Its Webtober WhatsApp Group](https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU)
+If you're facing any problems, ask on [Its Hacktober WhatsApp Group](https://chat.whatsapp.com/HfqDn52yy6l8T2d6fL0hKU)
 
 Our community is here to help! Feel free to ask questions, seek advice, or collaborate on solutions.
 
