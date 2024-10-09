@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xplore Tech Academy - Your Path to Tech Excellence</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="xplore.png" alt="Xplore Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#register" class="btn cta-button">Register Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="fw-bold mb-4">Your Path to Tech Excellence Starts Here</h1>
+                    <p class="lead mb-4">Transform your passion into a powerful skill with our expert-led courses. Join us and shape your future in tech.</p>
+                    <a href="#register" class="btn cta-button me-3 mb-2" style="color: white;">Start Learning</a>
+                    <a href="#courses" class="btn btn-outline-light mb-2">Explore Courses</a>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="form-section">
+                        <h3 class="mb-4" style="color: black;">Book a Live Class <span class="free-text">Free!</span></h3>
+                        <form id="liveClassForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="name" id="liveClassName" placeholder="Full Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" name="email" id="liveClassEmail" placeholder="Email Address" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" name="phone" id="liveClassPhone" placeholder="Phone Number" required>
+                            </div>
+                            <input type="hidden" name="course" value="Live Class Booking">
+                            <button type="submit" class="btn cta-button w-100">Reserve Your Spot</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="feature-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="codekid.jpeg" class="img-fluid feature-img" alt="Coding Kid">
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <h2 class="fw-bold mb-4 section-title">Empowering the Next Generation of Tech Leaders</h2>
+                    <p class="mb-4">At Xplore Tech Academy, we believe in hands-on learning, cutting-edge curriculum, and personalized mentorship. Our courses are designed to take you from beginner to industry-ready professional.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">✅ Expert instructors with industry experience</li>
+                        <li class="mb-2">✅ Project-based learning for practical skills</li>
+                        <li class="mb-2">✅ Small class sizes for personalized attention</li>
+                        <li class="mb-2">✅ Career support and job placement assistance</li>
+                    </ul>
+                    <a href="#register" class="btn cta-button mt-3">Join Our Community</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="course-section">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5 section-title">Our Top-Rated Courses</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card">
+                        <img src="javascript.jpeg" class="card-img-top" alt="JavaScript">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Mastery</h5>
+                            <p class="card-text">Master modern JavaScript from basics to advanced concepts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card">
+                        <img src="python.png" class="card-img-top" alt="Python">
+                        <div class="card-body">
+                            <h5 class="card-title">Python for Data Science</h5>
+                            <p class="card-text">Dive into the world of data analysis and machine learning with Python.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card">
+                        <img src="aws.png" class="card-img-top" alt="AWS">
+                        <div class="card-body">
+                            <h5 class="card-title">AWS Cloud Computing</h5>
+                            <p class="card-text">Become an AWS certified professional and master cloud technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5 section-title">What Our Students Say</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card h-100 d-flex flex-column">
+                        <p class="flex-grow-1">"Xplore Tech Academy transformed my career. The hands-on projects and expert guidance gave me the confidence to land my dream job."</p>
+                        <strong class="mt-auto">- Vishnu, Software Developer</strong>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card h-100 d-flex flex-column">
+                        <p class="flex-grow-1">"The AWS course was exactly what I needed to transition into cloud computing. The instructors were knowledgeable and supportive."</p>
+                        <strong class="mt-auto">- Dev, Cloud Architect</strong>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card h-100 d-flex flex-column">
+                        <p class="flex-grow-1">"As a complete beginner, I was amazed at how quickly I progressed. The curriculum is well-structured and the community is fantastic."</p>
+                        <strong class="mt-auto">- Arya, Data Analyst</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="registration-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-center mb-4 section-title">Start Your Tech Journey Today</h2>
+                    <form id="registrationForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select" name="course" id="course" required>
+                                <option value="" selected disabled>Select a Course</option>
+                                <option value="JavaScript Mastery">JavaScript Mastery</option>
+                                <option value="Python for Data Science">Python for Data Science</option>
+                                <option value="AWS Cloud Computing">AWS Cloud Computing</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" name="message" id="message" rows="3" placeholder="Any questions or comments?"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="terms" required>
+                            <label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-lg btn-submit">Enroll Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5 section-title">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            How long are the courses?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Our courses typically range from 8 to 12 weeks, depending on the complexity of the subject matter.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Are there any prerequisites for enrolling?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            While some advanced courses may have prerequisites, many of our courses are designed for beginners and require no prior experience.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            What is the class size?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We keep our class sizes small, typically between 15-20 students, to ensure personalized attention and interactive learning.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            Are the courses online or in-person?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We offer both online and in-person courses. Our online courses provide the same high-quality instruction and interaction as our in-person classes.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            Do you offer job placement assistance?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, we provide career support and job placement assistance to our students. This includes resume reviews, interview preparation, and connections with our industry partners.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h3 class="mb-4">Stay Updated with Our Newsletter</h3>
+                    <form class="d-flex justify-content-center">
+                        <input type="email" class="form-control me-2" placeholder="Your email address" style="max-width: 300px;">
+                        <button type="submit" class="btn" style="background-color: #fcc222;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Xplore Tech Academy</h5>
+                    <p>Empowering the next generation of tech leaders.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white">Home</a></li>
+                        <li><a href="#courses" class="text-white">Courses</a></li>
+                        <li><a href="#about" class="text-white">About</a></li>
+                        <li><a href="#register" class="text-white">Register</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@xploretech.com<br>Phone: (123) 456-7890</p>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>&copy; 2023 Xplore Tech Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("ZInm_ktCaYaq-bsiN");
+        })();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            function sendForm(formId, successMessage, templateId) {
+                const form = document.getElementById(formId);
+                form.addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    const templateParams = {};
+
+                    // Collect all form data
+                    const formData = new FormData(form);
+                    for (let [key, value] of formData.entries()) {
+                        templateParams[key] = value.trim();
+                    }
+
+                    // Add form type to templateParams
+                    templateParams.formType = formId === 'registrationForm' ? 'Course Registration' : 'Live Class Booking';
+
+                    // Validate form fields
+                    try {
+                        validateForm(templateParams, formId);
+                    } catch (error) {
+                        alert(error.message);
+                        return;
+                    }
+
+                    // Create a formatted message with all form fields
+                    let formattedMessage = `Form Type: ${templateParams.formType}\n\n`;
+                    for (let [key, value] of Object.entries(templateParams)) {
+                        if (key !== 'formType') {
+                            formattedMessage += `${key.charAt(0).toUpperCase() + key.slice(1)}: ${value}\n`;
+                        }
+                    }
+
+                    // Add the formatted message to templateParams
+                    templateParams.message = formattedMessage;
+
+                    // Log the templateParams for debugging
+                    console.log('Sending form data:', templateParams);
+
+                    // If all validations pass, submit the form
+                    emailjs.send('service_s69r9vf', templateId, templateParams)
+                        .then(function(response) {
+                            console.log('SUCCESS!', response.status, response.text);
+                            showSuccessMessage(form, successMessage);
+                        }, function(error) {
+                            console.error('FAILED...', error);
+                            alert('Failed to submit form. Please try again.');
+                        });
+                });
+            }
+
+            function showSuccessMessage(form, message) {
+                const successDiv = document.createElement('div');
+                successDiv.className = 'success-message';
+                successDiv.innerHTML = `
+                    <h3>Thank you!</h3>
+                    <p>${message}</p>
+                `;
+                successDiv.style.opacity = '0';
+                successDiv.style.transform = 'translateY(20px)';
+                successDiv.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+
+                form.parentNode.replaceChild(successDiv, form);
+
+                // Trigger reflow
+                successDiv.offsetHeight;
+
+                // Animate in
+                successDiv.style.opacity = '1';
+                successDiv.style.transform = 'translateY(0)';
+            }
+
+            function validateForm(params, formId) {
+                if (!params.name) throw new Error('Please enter your full name.');
+                if (!params.email) throw new Error('Please enter your email address.');
+                if (!isValidEmail(params.email)) throw new Error('Please enter a valid email address.');
+                if (!params.phone) throw new Error('Please enter your phone number.');
+                if (!isValidPhone(params.phone)) throw new Error('Please enter a valid 10-digit phone number.');
+                
+                if (formId === 'registrationForm') {
+                    if (!params.course) throw new Error('Please select a course.');
+                    const terms = document.querySelector('#terms').checked;
+                    if (!terms) throw new Error('Please agree to the terms and conditions.');
+                    params.terms = 'Agreed';
+                }
+            }
+
+            function isValidEmail(email) {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailRegex.test(email);
+            }
+
+            function isValidPhone(phone) {
+                const phoneRegex = /^\d{10}$/;
+                return phoneRegex.test(phone);
+            }
+
+            sendForm('registrationForm', 'Your registration has been submitted successfully!', 'template_eg27g2j');
+            sendForm('liveClassForm', 'Your live class has been booked successfully!', 'template_3qjtoyn');
+        });
+    </script>
+</body>
+</html>
