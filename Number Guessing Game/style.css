@@ -1,0 +1,21 @@
+body
+{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    margin: auto;
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    border: 2px black;
+    height: 600px;
+    width: 400px;
+    border-radius: 10%;
+}
