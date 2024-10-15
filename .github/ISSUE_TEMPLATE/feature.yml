@@ -1,0 +1,64 @@
+name: "💡 Feature Request"
+description: "Got a new idea or feature suggestion for Scruter? Share it with us!"
+title: " Feature Request: "
+labels: [enhancement, suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to propose a new feature for our project! Please provide the details below to help us understand your suggestion better.
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "🔖 Feature Description"
+      description: "Clearly describe the new feature or improvement you're proposing, including any alternative solutions you've considered."
+      placeholder: "The feature I'm proposing is..."
+  - type: textarea
+    id: benefits
+    validations:
+      required: true
+    attributes:
+      label: "📈 Benefits"
+      description: "Explain the benefits of this feature and how it would improve the project or user experience."
+      placeholder: "This feature will help by..."
+  - type: textarea
+    id: implementation
+    validations:
+      required: false
+    attributes:
+      label: "🛠️ Suggested Implementation (Optional)"
+      description: "Share any ideas you have for how this feature could be implemented, if applicable."
+      placeholder: "I suggest implementing this feature by..."
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📷 Screenshots"
+      description: "Attach any relevant screenshots or design mockups to support your feature request, if available."
+      placeholder: "Attach any visual aids here."
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "✔️ Checklist"
+      options:
+        - label: "I have checked the existing issues to avoid duplicates."
+          required: true
+        - label: "I have read and understood the [Contributing Guidelines](https://github.com/sudo-parnab/Its-algober/blob/main/CONTRIBUTING.md)."
+          required: true
+        - label: "I have read and agree to the [Code of Conduct](https://github.com/sudo-parnab/Its-algober/blob/main/CODE_OF_CONDUCT.md)."
+          required: true
+        - label: "I am a Hacktoberfest'24 contributor."
+          required: false
+        - label: "I am willing to work on this issue."
+          required: false
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: "📝 Additional Notes (Optional)"
+      description: "Provide any other information or context that may be relevant to this feature request."
+      placeholder: "Any other details..."
+    validations:
+      required: false
