@@ -1,0 +1,83 @@
+name: "🐞 Bug Report"
+description: "Help us improve the project by reporting any issues you're facing."
+title: " Bug Report: "
+labels: ["bug", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please fill out the form below to help us understand the issue.
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "🔖 Bug Description"
+      description: "Provide a clear and concise description of the bug, including what you expected to happen and what actually happened. Include any troubleshooting steps you've tried."
+      placeholder: "I encountered a bug where..."
+  - type: textarea
+    id: reproduction-steps
+    validations:
+      required: true
+    attributes:
+      label: "🔄 Steps to Reproduce"
+      description: "List the steps required to reproduce the bug. Be as detailed as possible."
+      placeholder: "1. Go to...\n2. Click on...\n3. Scroll to...\n4. See the error"
+  - type: textarea
+    id: expected-behavior
+    validations:
+      required: true
+    attributes:
+      label: "✔️ Expected Behavior"
+      description: "Describe what you expected to happen instead."
+      placeholder: "I expected that..."
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📷 Screenshots"
+      description: "Please attach any relevant screenshots that help demonstrate the issue."
+      placeholder: "Attach visual evidence if applicable."
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: "📝 Additional Information"
+      description: "Provide any additional information, such as logs, error messages, or specific circumstances where the bug occurs."
+      placeholder: "Add any other context here."
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: "🌐 Browser(s)"
+      description: "Select the browser(s) where you experienced the issue."
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "✔️ Checklist"
+      options:
+        - label: "I have checked the existing issues to avoid duplicates."
+          required: true
+        - label: "I have read and understood the [Contributing Guidelines](https://github.com/sudo-parnab/Its-algober/blob/main/CONTRIBUTING.md)."
+          required: true
+        - label: "I have read and agree to the [Code of Conduct](https://github.com/sudo-parnab/Its-algober/blob/main/CODE_OF_CONDUCT.md)."
+          required: true
+        - label: "I am a Hacktoberfest'24 contributor."
+          required: false
+        - label: "I am willing to work on this issue."
+          required: false
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: "📝 Additional Notes (Optional)"
+      description: "Provide any other relevant information that could help in resolving the issue."
+      placeholder: "Add any extra details here."
+    validations:
+      required: false
