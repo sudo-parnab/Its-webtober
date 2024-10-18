@@ -1,0 +1,52 @@
+{
+  "name": "blogging-platform-api",
+  "version": "1.0.0",
+  "description": "This is a RESTful API for a blogging platform that allows users to create, read, update, and delete blog posts. The API supports user authentication and authorization, allowing users to create and manage their own posts.",
+  "main": "src/server.js",
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 1000000
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "watch": "nodemon src/server.js",
+    "build": "npm install",
+    "test": "jest --detectOpenHandles",
+    "test-watch": "jest --watch",
+    "deploy": "pm2 start server.js -i max"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obinnafranklinduru/blogging-platform-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obinnafranklinduru/blogging-platform-api/issues"
+  },
+  "homepage": "https://github.com/obinnafranklinduru/blogging-platform-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.1",
+    "morgan": "^1.10.0",
+    "pm2": "^5.3.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3",
+    "validator": "^13.9.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}
