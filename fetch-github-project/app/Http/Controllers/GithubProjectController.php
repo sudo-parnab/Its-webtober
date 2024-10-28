@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\gitHubProjects;
+use App\Models\GithubUsername;
 use App\Models\Setting;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -10,7 +11,18 @@ use Illuminate\Support\Facades\Http;
 
 class GithubProjectController extends Controller
 {
-    protected $githubUrl = 'https://api.github.com/users/your-github-userName-here/repos';
+    protected $githubUrl = '';
+    
+    public function __construct()
+    {
+        $GithubUsername = GithubUsername::get();
+        if(count($GithubUsername) > 0){
+            $userName = $GithubUsername[0]->username;
+            $this->githubUrl = "https://api.github.com/users/$userName/repos";
+
+        }
+    } 
+    
     public function index()
     {
         $setting = Setting::firstOrCreate(
@@ -58,5 +70,12 @@ class GithubProjectController extends Controller
             return response()->json(['message' => 'No new project added.', 'status' => 404]);
         }
         return $response->json();
+    }
+
+    public function saveUsername(Request $request){
+        GithubUsername::create([
+            'username' => $request->username
+        ]);
+        return redirect('/');
     }
 }

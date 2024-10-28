@@ -81,10 +81,15 @@
             <h1>Welcome to <span class="lime-color">Code</span> & Create</h1>
             <p>I'm a backend developer.</p>
         </div>
+        <form action="{{route('save.username')}}" method="POST">
+            @csrf
+            <input type="text" name="username" id="username" style="border-radius: 8px; border:none" placeholder="Github Username">
+            <input type="submit" value="Save" class="margin:2px 10px">
+        </form>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-5">
+    <section id="projects" class="py-5" style="min-height: 60vh">
         <div class="container">
             <div id="heading-section" class="d-flex" style="justify-content: center;">
                 <h2 class="project-heading">My Projects</h2>
@@ -93,22 +98,24 @@
                 </button>
             </div>
             <div class="row" id="project-section">
-                <!-- Project Card 1 -->
-                
-                @foreach ($projects as $project)
-                    <div class="col-md-4">
-                        <div class="card project-card mb-4">
-                            <div class="card-body min-height">
-                                <h5 class="card-title bg-secondary rounded-3 p-1">{{$project['project_name']}}</h5>
-                                <textarea class="form-control bg-dark text-light border project-card my-3" readonly id="projectDescription" cols="30" rows="3" style="resize: none;">{{$project['project_description']}}</textarea>
-                                <div class="d-flex" style="justify-content: space-between;">
-                                    <a href="{{$project['project_url']}}" class="btn btn-outline-light">Project Link</a>
-                                    <span class="lime-color">{{$project['created_on']}}</span>
+                @if( count($projects))
+                    @foreach ($projects as $project)
+                        <div class="col-md-4">
+                            <div class="card project-card mb-4">
+                                <div class="card-body min-height">
+                                    <h5 class="card-title bg-secondary rounded-3 p-1">{{$project['project_name']}}</h5>
+                                    <textarea class="form-control bg-dark text-light border project-card my-3" readonly id="projectDescription" cols="30" rows="3" style="resize: none;">{{$project['project_description']}}</textarea>
+                                    <div class="d-flex" style="justify-content: space-between;">
+                                        <a href="{{$project['project_url']}}" class="btn btn-outline-light">Project Link</a>
+                                        <span class="lime-color">{{$project['created_on']}}</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                @endforeach
+                    @endforeach
+                @else
+                    Please register your username first.
+                @endif
 
             </div>
         </div>
@@ -117,7 +124,7 @@
     <!-- Footer -->
     <footer>
         <div>
-            <span>Owner's Name</span>
+            <span>Aqib.Ali</span>
             <div class="social-links">
                 <a href="https://github.com/AqibAliMughal" target="_blank">GitHub</a>
                 <a href="https://www.linkedin.com/in/aqibalimughal/" target="_blank">LinkedIn</a>
@@ -146,8 +153,8 @@
             })
             .then(response => {
                 const projectsContainer = document.getElementById('project-section');
-                if(response.status == 400){
-                    alert(response.message); 
+                if(response.status == 404){
+                    alert(response.message);
                 }else{
                     projectsContainer.innerHTML = '';
                     var data = response.data;
